@@ -1,0 +1,126 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.status-module {
+  margin-top: 1em;
+  margin-bottom: 3em;
+}
+
+.chat-module {
+  display: grid;
+  grid-template-areas:
+    "logged-in-users messages"
+    "outgoing outgoing";
+  grid-template-columns: 10em 1fr;
+  grid-template-rows: 1fr auto;
+  height: 100%;
+}
+
+.logged-in-users {
+  grid-area: logged-in-users;
+  background-color: rgb(255, 209, 255);
+  border: 1px solid saddlebrown;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+  list-style-type: none;
+}
+
+.loggedInUser {
+  margin: auto 1rem;
+}
+
+.messages {
+  grid-area: messages;
+  background-color: bisque;
+  border: 1px solid saddlebrown;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+  list-style-type: none;
+}
+
+.message {
+  background-color: bisque;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.sender-info {
+  display: flex;
+  width: 10rem;
+}
+
+.message-text {
+  display: flex;
+  width: 80%;
+  margin: 1;
+  margin-top: auto;
+}
+
+.send-message {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.login-username {
+  width: 30%;
+  padding: 14px 20px;
+  border: 1px;
+  cursor: pointer;
+  display: block;
+  margin-top: 10em;
+  margin-bottom: 1.5em;
+  margin: auto;
+  border: 1px solid #ccc;
+}
+
+.outgoing { 
+  grid-area: outgoing;
+  margin: 2rem;
+}
+
+.content-to-send {
+  display: flex;
+  width: 70em;
+  padding: 10px 15px;
+  border: 1px;
+  cursor: pointer;
+  /* display: block; */
+  margin-bottom: 1.5em;
+  margin: auto;
+  border: 1px solid #ccc;
+}
+
+.send-button {
+  display: flex;
+  width: 6em;
+  background-color: #a94311;
+  color: white;
+  padding: 10px 14px;
+  border: 1px;
+  cursor: pointer;
+  margin: auto;
+  margin-left: 2em;
+}
+
+.login-button {
+  width: 30%;
+  background-color: #118bee;
+  color: white;
+  padding: 14px 20px;
+  border: 1px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  margin-top: 2em;
+}
