@@ -1,0 +1,40 @@
+/* Bordered form */
+form {
+  margin: auto;
+  border: 3px solid #f1f1f1;
+}
+
+.username {
+  width: 95%;
+  padding: 12px 20px;
+  margin: auto;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.login-form {
+  position: relative;
+  top: 150px;
+  width: 30%;
+  margin:0 auto;
+  text-align:center;
+}
+
+button {
+  width: 95%;
+  background-color: #118bee;
+  color: white;
+  padding: 14px 20px;
+  margin: auto;
+  border: none;
+  cursor: pointer;
+}
+
+.login-welcome {
+  position: relative;
+  top: 150px;
+  color: orange;
+  padding: 70px 0;
+  border: 3px solid green;
+}

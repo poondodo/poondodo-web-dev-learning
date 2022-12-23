@@ -1,0 +1,94 @@
+/* Bordered form */
+.top-part {
+  margin: auto;
+}
+
+.welcome {
+  color: orange;
+  padding: 10px 0;
+}
+
+.logout {
+  width: 100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: rgb(255, 81, 0);
+}
+
+#secret-words {
+  margin: auto;
+  border: 1rem solid rgb(255, 215, 12);
+}
+
+.words {
+  font-family: Arial, Helvetica, sans-serif;
+  inline-size: 1000px;
+  overflow-wrap: break-word;
+  margin: auto;
+  color: rgb(108, 45, 218);
+}
+
+.new-game-form {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.guess-history {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 20px;
+  color: cornflowerblue;
+}
+
+.guess-form {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.has-win {
+  color: rgb(255, 81, 0);
+  padding: 10px 0;
+  font-size: 40px;
+  text-align: center;
+}
+
+.win {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.guess-input {
+  width: 30%;
+  padding: 12px 20px;
+  margin: auto;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.bigbutton {
+  width: 30%;
+  background-color: #118bee;
+  color: white;
+  padding: 14px 20px;
+  margin: auto;
+  border: none;
+  cursor: pointer;
+}
+
+.back-to-home {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.error {
+  color: red;
+  padding: 10px 0;
+}
